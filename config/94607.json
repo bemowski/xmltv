@@ -1,0 +1,14 @@
+{
+   "hdhomerun": {
+      "model":"",
+      "ip":""
+   }, 
+   "channels":{
+      "2":{
+         "notes":"",
+         "programs":[
+            {"number":"1","name":""}
+         ]
+      }
+   }
+}

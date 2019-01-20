@@ -1,0 +1,74 @@
+#!/bin/bash
+
+
+echo "Running xmltv refresh"
+
+echo "Java home: $JAVA_HOME"
+
+echo "PWD: $PWD"
+
+
+export CONTRIB=../contrib
+export STRMDIR=../strm
+export XMLTV=../xmltv.out
+export XMLTV_CONF=../xmltv.in
+
+echo "CONTRIB: $CONTRIB"
+echo "STRMDIR: $STRMDIR"
+echo "XMLTV: $XMLTV"
+echo "XMLTV_CONF: $XMLTV_CONF"
+
+
+mkdir -p $STRMDIR $XMLTV $XMLTV_CONF
+
+# No arguments means refresh
+# With -f the code will re-parse the streams.txt and force update of mc2xml
+# -r means refresh data
+
+while getopts "hfr" opt; do
+    case "$opt" in
+    h)
+        echo "rebuild [-f]"
+        echo "   -f means reparse and force full update"
+        echo "   -r means just refresh mc2xml data"
+        exit 0
+        ;;
+    f)  
+       	echo "Running force, running java xmltv.xmltv" 
+	$JAVA_HOME/bin/java -cp ../classes xmltv.xmltv ../config/streams.txt $STRMDIR $XMLTV_CONF
+        rm $XMLTV_CONF/mc2xml.dat
+        rm $XMLTV/xmltv.xml
+        FORCE=-f
+        ;;
+    r)
+        ;;
+    esac
+done
+
+exit 0
+
+# XMLTV DEAD!!
+
+echo "updating from mc2xml, force= $FORCE"
+
+#exit 0
+
+# see mc2xml --help for details on switchs
+#
+# -f is force
+# -d 72 is 72 hours to the future, we'll cron this nightly
+# -U is UTF-8
+
+# here, we get options 0-15 for various services available in this zip if mc2xml.dat does 
+# not exist.  We want option 0.  So we echo that to stdin, it seems to ignore the option
+# if the script doesn't need it, but it does work if the script does need it.
+echo "0"|$CONTRIB/mc2xml/mc2xml -c US -g 94607 -A -U $FORCE -d 96 \
+	-R $XMLTV_CONF/mc2xml.ren \
+	-D $XMLTV_CONF/mc2xml.dat \
+	-C $XMLTV_CONF/mc2xml.chl \
+	-o $XMLTV/xmltv.xml
+
+echo "mc2xml done.  Running java to fix display names"
+
+$JAVA_HOME/bin/java -cp ../classes xmltv.FixDisplayNames $XMLTV/xmltv.xml
+

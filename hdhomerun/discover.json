@@ -1,0 +1,11 @@
+{
+   "DeviceID" : "1047BA79",
+   "FirmwareName" : "hdhomerun4_atsc",
+   "FriendlyName" : "HDHomeRun CONNECT",
+   "LineupURL" : "http://192.168.20.137:80/lineup.json",
+   "BaseURL" : "http://192.168.20.137:80",
+   "DeviceAuth" : "W44V7AWk4k4dRZCNJnyk5Ono",
+   "TunerCount" : 2,
+   "ModelNumber" : "HDHR4-2US",
+   "FirmwareVersion" : "20161117"
+}

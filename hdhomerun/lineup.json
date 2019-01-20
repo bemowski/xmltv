@@ -1,0 +1,755 @@
+[
+   {
+      "VideoCodec" : "MPEG2",
+      "AudioCodec" : "AC3",
+      "URL" : "http://192.168.20.137:5004/auto/v1.1",
+      "GuideNumber" : "1.1",
+      "GuideName" : "WhatsOn"
+   },
+   {
+      "URL" : "http://192.168.20.137:5004/auto/v1.2",
+      "GuideName" : "GEB",
+      "GuideNumber" : "1.2",
+      "AudioCodec" : "AC3",
+      "VideoCodec" : "MPEG2"
+   },
+   {
+      "URL" : "http://192.168.20.137:5004/auto/v1.3",
+      "GuideNumber" : "1.3",
+      "GuideName" : "Vietpho",
+      "VideoCodec" : "MPEG2",
+      "AudioCodec" : "AC3"
+   },
+   {
+      "VideoCodec" : "MPEG2",
+      "AudioCodec" : "AC3",
+      "URL" : "http://192.168.20.137:5004/auto/v1.4",
+      "GuideNumber" : "1.4",
+      "GuideName" : "VietBay"
+   },
+   {
+      "VideoCodec" : "MPEG2",
+      "AudioCodec" : "AC3",
+      "URL" : "http://192.168.20.137:5004/auto/v1.5",
+      "GuideName" : "QHTV",
+      "GuideNumber" : "1.5"
+   },
+   {
+      "VideoCodec" : "MPEG2",
+      "AudioCodec" : "AC3",
+      "URL" : "http://192.168.20.137:5004/auto/v1.6",
+      "GuideName" : "NetViet",
+      "GuideNumber" : "1.6"
+   },
+   {
+      "URL" : "http://192.168.20.137:5004/auto/v1.7",
+      "GuideNumber" : "1.7",
+      "GuideName" : "VIETOP",
+      "VideoCodec" : "MPEG2",
+      "AudioCodec" : "AC3"
+   },
+   {
+      "GuideNumber" : "1.8",
+      "GuideName" : "CTV-USA",
+      "URL" : "http://192.168.20.137:5004/auto/v1.8",
+      "VideoCodec" : "MPEG2",
+      "AudioCodec" : "AC3"
+   },
+   {
+      "VideoCodec" : "MPEG2",
+      "AudioCodec" : "AC3",
+      "URL" : "http://192.168.20.137:5004/auto/v1.9",
+      "GuideNumber" : "1.9",
+      "GuideName" : "U_Ch"
+   },
+   {
+      "GuideNumber" : "1.10",
+      "GuideName" : "KAXT-CD",
+      "URL" : "http://192.168.20.137:5004/auto/v1.10",
+      "AudioCodec" : "AC3",
+      "VideoCodec" : "MPEG2"
+   },
+   {
+      "VideoCodec" : "MPEG2",
+      "AudioCodec" : "AC3",
+      "URL" : "http://192.168.20.137:5004/auto/v1.11",
+      "GuideNumber" : "1.11",
+      "GuideName" : "HaiLeTV"
+   },
+   {
+      "AudioCodec" : "AC3",
+      "VideoCodec" : "MPEG2",
+      "URL" : "http://192.168.20.137:5004/auto/v1.12",
+      "GuideNumber" : "1.12",
+      "GuideName" : "NET V"
+   },
+   {
+      "VideoCodec" : "MPEG2",
+      "AudioCodec" : "AC3",
+      "GuideName" : "KTVU-HD",
+      "HD" : 1,
+      "GuideNumber" : "2.1",
+      "URL" : "http://192.168.20.137:5004/auto/v2.1"
+   },
+   {
+      "URL" : "http://192.168.20.137:5004/auto/v2.2",
+      "GuideNumber" : "2.2",
+      "GuideName" : "LATV",
+      "VideoCodec" : "MPEG2",
+      "AudioCodec" : "AC3"
+   },
+   {
+      "VideoCodec" : "MPEG2",
+      "AudioCodec" : "AC3",
+      "URL" : "http://192.168.20.137:5004/auto/v2.3",
+      "GuideName" : "Movies!",
+      "GuideNumber" : "2.3"
+   },
+   {
+      "AudioCodec" : "AC3",
+      "VideoCodec" : "MPEG2",
+      "URL" : "http://192.168.20.137:5004/auto/v2.4",
+      "GuideName" : "Buzzr",
+      "GuideNumber" : "2.4"
+   },
+   {
+      "GuideNumber" : "4.1",
+      "HD" : 1,
+      "GuideName" : "KRON-HD",
+      "URL" : "http://192.168.20.137:5004/auto/v4.1",
+      "VideoCodec" : "MPEG2",
+      "AudioCodec" : "AC3"
+   },
+   {
+      "VideoCodec" : "MPEG2",
+      "AudioCodec" : "AC3",
+      "URL" : "http://192.168.20.137:5004/auto/v4.2",
+      "GuideName" : "SKYLINK",
+      "GuideNumber" : "4.2"
+   },
+   {
+      "URL" : "http://192.168.20.137:5004/auto/v4.3",
+      "GuideName" : "GET TV",
+      "GuideNumber" : "4.3",
+      "AudioCodec" : "AC3",
+      "VideoCodec" : "MPEG2"
+   },
+   {
+      "VideoCodec" : "MPEG2",
+      "AudioCodec" : "AC3",
+      "HD" : 1,
+      "GuideNumber" : "5.1",
+      "GuideName" : "KPIX-TV",
+      "URL" : "http://192.168.20.137:5004/auto/v5.1"
+   },
+   {
+      "URL" : "http://192.168.20.137:5004/auto/v5.2",
+      "GuideNumber" : "5.2",
+      "GuideName" : "Decades",
+      "AudioCodec" : "AC3",
+      "VideoCodec" : "MPEG2"
+   },
+   {
+      "AudioCodec" : "AC3",
+      "VideoCodec" : "MPEG2",
+      "URL" : "http://192.168.20.137:5004/auto/v7.1",
+      "GuideName" : "KGO-HD",
+      "HD" : 1,
+      "GuideNumber" : "7.1"
+   },
+   {
+      "HD" : 1,
+      "GuideNumber" : "7.2",
+      "GuideName" : "LIVWELL",
+      "URL" : "http://192.168.20.137:5004/auto/v7.2",
+      "VideoCodec" : "MPEG2",
+      "AudioCodec" : "AC3"
+   },
+   {
+      "AudioCodec" : "AC3",
+      "VideoCodec" : "MPEG2",
+      "GuideNumber" : "7.3",
+      "GuideName" : "LAFFTV",
+      "URL" : "http://192.168.20.137:5004/auto/v7.3"
+   },
+   {
+      "HD" : 1,
+      "GuideName" : "KQED-HD",
+      "GuideNumber" : "9.1",
+      "URL" : "http://192.168.20.137:5004/auto/v9.1",
+      "VideoCodec" : "MPEG2",
+      "AudioCodec" : "AC3"
+   },
+   {
+      "AudioCodec" : "AC3",
+      "VideoCodec" : "MPEG2",
+      "GuideNumber" : "9.2",
+      "GuideName" : "KQED+",
+      "URL" : "http://192.168.20.137:5004/auto/v9.2"
+   },
+   {
+      "URL" : "http://192.168.20.137:5004/auto/v9.3",
+      "GuideNumber" : "9.3",
+      "GuideName" : "WORLD",
+      "AudioCodec" : "AC3",
+      "VideoCodec" : "MPEG2"
+   },
+   {
+      "GuideNumber" : "11.1",
+      "HD" : 1,
+      "GuideName" : "KNTV HD",
+      "URL" : "http://192.168.20.137:5004/auto/v11.1",
+      "AudioCodec" : "AC3",
+      "VideoCodec" : "MPEG2"
+   },
+   {
+      "VideoCodec" : "MPEG2",
+      "AudioCodec" : "AC3",
+      "GuideNumber" : "11.2",
+      "GuideName" : "COZI-TV",
+      "URL" : "http://192.168.20.137:5004/auto/v11.2"
+   },
+   {
+      "HD" : 1,
+      "GuideNumber" : "11.3",
+      "GuideName" : "KNTV-HD",
+      "URL" : "http://192.168.20.137:5004/auto/v11.3",
+      "AudioCodec" : "AC3",
+      "VideoCodec" : "MPEG2"
+   },
+   {
+      "URL" : "http://192.168.20.137:5004/auto/v14.1",
+      "GuideNumber" : "14.1",
+      "HD" : 1,
+      "GuideName" : "KDTV-HD",
+      "VideoCodec" : "MPEG2",
+      "AudioCodec" : "AC3"
+   },
+   {
+      "AudioCodec" : "AC3",
+      "VideoCodec" : "MPEG2",
+      "GuideNumber" : "14.2",
+      "HD" : 1,
+      "GuideName" : "KFSF-HD",
+      "URL" : "http://192.168.20.137:5004/auto/v14.2"
+   },
+   {
+      "VideoCodec" : "MPEG2",
+      "AudioCodec" : "AC3",
+      "URL" : "http://192.168.20.137:5004/auto/v14.3",
+      "GuideName" : "getTV",
+      "GuideNumber" : "14.3"
+   },
+   {
+      "VideoCodec" : "MPEG2",
+      "AudioCodec" : "AC3",
+      "URL" : "http://192.168.20.137:5004/auto/v14.4",
+      "GuideNumber" : "14.4",
+      "GuideName" : "Escape"
+   },
+   {
+      "VideoCodec" : "MPEG2",
+      "AudioCodec" : "AC3",
+      "URL" : "http://192.168.20.137:5004/auto/v20.1",
+      "GuideNumber" : "20.1",
+      "HD" : 1,
+      "GuideName" : "KOFY-HD"
+   },
+   {
+      "VideoCodec" : "MPEG2",
+      "AudioCodec" : "AC3",
+      "URL" : "http://192.168.20.137:5004/auto/v20.2",
+      "GuideNumber" : "20.2",
+      "GuideName" : "METV-SD"
+   },
+   {
+      "URL" : "http://192.168.20.137:5004/auto/v20.3",
+      "GuideName" : "VIETV",
+      "GuideNumber" : "20.3",
+      "VideoCodec" : "MPEG2",
+      "AudioCodec" : "AC3"
+   },
+   {
+      "GuideNumber" : "20.4",
+      "GuideName" : "ThisTV",
+      "URL" : "http://192.168.20.137:5004/auto/v20.4",
+      "VideoCodec" : "MPEG2",
+      "AudioCodec" : "AC3"
+   },
+   {
+      "GuideName" : "KTSF-D1",
+      "HD" : 1,
+      "GuideNumber" : "26.1",
+      "URL" : "http://192.168.20.137:5004/auto/v26.1",
+      "AudioCodec" : "AC3",
+      "VideoCodec" : "MPEG2"
+   },
+   {
+      "GuideNumber" : "26.2",
+      "GuideName" : "KTSF-D2",
+      "URL" : "http://192.168.20.137:5004/auto/v26.2",
+      "VideoCodec" : "MPEG2",
+      "AudioCodec" : "AC3"
+   },
+   {
+      "GuideNumber" : "26.3",
+      "GuideName" : "KTSF-D3",
+      "URL" : "http://192.168.20.137:5004/auto/v26.3",
+      "AudioCodec" : "AC3",
+      "VideoCodec" : "MPEG2"
+   },
+   {
+      "URL" : "http://192.168.20.137:5004/auto/v26.5",
+      "GuideNumber" : "26.5",
+      "GuideName" : "KTSF-D5",
+      "AudioCodec" : "AC3",
+      "VideoCodec" : "MPEG2"
+   },
+   {
+      "VideoCodec" : "MPEG2",
+      "AudioCodec" : "AC3",
+      "GuideName" : "KTSF-D6",
+      "GuideNumber" : "26.6",
+      "URL" : "http://192.168.20.137:5004/auto/v26.6"
+   },
+   {
+      "VideoCodec" : "MPEG2",
+      "AudioCodec" : "AC3",
+      "GuideNumber" : "27.1",
+      "GuideName" : "KEXT",
+      "URL" : "http://192.168.20.137:5004/auto/v27.1"
+   },
+   {
+      "GuideName" : "KFTL-CD",
+      "GuideNumber" : "28.1",
+      "URL" : "http://192.168.20.137:5004/auto/v28.1",
+      "VideoCodec" : "MPEG2",
+      "AudioCodec" : "AC3"
+   },
+   {
+      "GuideName" : "HSN",
+      "GuideNumber" : "28.2",
+      "URL" : "http://192.168.20.137:5004/auto/v28.2",
+      "AudioCodec" : "AC3",
+      "VideoCodec" : "MPEG2"
+   },
+   {
+      "GuideNumber" : "28.3",
+      "GuideName" : "CMC-TV",
+      "URL" : "http://192.168.20.137:5004/auto/v28.3",
+      "VideoCodec" : "MPEG2",
+      "AudioCodec" : "AC3"
+   },
+   {
+      "VideoCodec" : "MPEG2",
+      "AudioCodec" : "AC3",
+      "URL" : "http://192.168.20.137:5004/auto/v28.4",
+      "GuideName" : "BTN",
+      "GuideNumber" : "28.4"
+   },
+   {
+      "GuideName" : "REV'N",
+      "GuideNumber" : "28.5",
+      "URL" : "http://192.168.20.137:5004/auto/v28.5",
+      "AudioCodec" : "AC3",
+      "VideoCodec" : "MPEG2"
+   },
+   {
+      "VideoCodec" : "MPEG2",
+      "AudioCodec" : "AC3",
+      "GuideName" : "HSN2",
+      "GuideNumber" : "28.6",
+      "URL" : "http://192.168.20.137:5004/auto/v28.6"
+   },
+   {
+      "VideoCodec" : "MPEG2",
+      "AudioCodec" : "AC3",
+      "GuideNumber" : "28.7",
+      "GuideName" : "KFTLCD7",
+      "URL" : "http://192.168.20.137:5004/auto/v28.7"
+   },
+   {
+      "VideoCodec" : "MPEG2",
+      "AudioCodec" : "AC3",
+      "GuideName" : "RetroTV",
+      "GuideNumber" : "28.10",
+      "URL" : "http://192.168.20.137:5004/auto/v28.10"
+   },
+   {
+      "URL" : "http://192.168.20.137:5004/auto/v28.15",
+      "GuideName" : "COUNTRY",
+      "GuideNumber" : "28.15",
+      "AudioCodec" : "AC3",
+      "VideoCodec" : "MPEG2"
+   },
+   {
+      "AudioCodec" : "AC3",
+      "VideoCodec" : "MPEG2",
+      "URL" : "http://192.168.20.137:5004/auto/v32.1",
+      "GuideNumber" : "32.1",
+      "GuideName" : "KMTP-DT"
+   },
+   {
+      "URL" : "http://192.168.20.137:5004/auto/v32.2",
+      "GuideNumber" : "32.2",
+      "GuideName" : "WorldCh",
+      "AudioCodec" : "AC3",
+      "VideoCodec" : "MPEG2"
+   },
+   {
+      "URL" : "http://192.168.20.137:5004/auto/v32.4",
+      "GuideNumber" : "32.4",
+      "GuideName" : "WTV",
+      "AudioCodec" : "AC3",
+      "VideoCodec" : "MPEG2"
+   },
+   {
+      "AudioCodec" : "AC3",
+      "VideoCodec" : "MPEG2",
+      "URL" : "http://192.168.20.137:5004/auto/v32.5",
+      "GuideNumber" : "32.5",
+      "GuideName" : "NTD"
+   },
+   {
+      "VideoCodec" : "MPEG2",
+      "AudioCodec" : "AC3",
+      "GuideNumber" : "32.6",
+      "GuideName" : "KPOP",
+      "URL" : "http://192.168.20.137:5004/auto/v32.6"
+   },
+   {
+      "VideoCodec" : "MPEG2",
+      "AudioCodec" : "AC3",
+      "URL" : "http://192.168.20.137:5004/auto/v36.1",
+      "HD" : 1,
+      "GuideNumber" : "36.1",
+      "GuideName" : "KICU-HD"
+   },
+   {
+      "URL" : "http://192.168.20.137:5004/auto/v36.2",
+      "GuideName" : "KICU-SD",
+      "GuideNumber" : "36.2",
+      "VideoCodec" : "MPEG2",
+      "AudioCodec" : "AC3"
+   },
+   {
+      "VideoCodec" : "MPEG2",
+      "AudioCodec" : "AC3",
+      "URL" : "http://192.168.20.137:5004/auto/v36.3",
+      "GuideNumber" : "36.3",
+      "GuideName" : "KICUSD2"
+   },
+   {
+      "URL" : "http://192.168.20.137:5004/auto/v36.4",
+      "GuideNumber" : "36.4",
+      "GuideName" : "Heroes",
+      "AudioCodec" : "AC3",
+      "VideoCodec" : "MPEG2"
+   },
+   {
+      "AudioCodec" : "AC3",
+      "VideoCodec" : "MPEG2",
+      "GuideNumber" : "38.1",
+      "HD" : 1,
+      "GuideName" : "SBN",
+      "URL" : "http://192.168.20.137:5004/auto/v38.1"
+   },
+   {
+      "URL" : "http://192.168.20.137:5004/auto/v38.2",
+      "GuideNumber" : "38.2",
+      "GuideName" : "Sino TV",
+      "VideoCodec" : "MPEG2",
+      "AudioCodec" : "AC3"
+   },
+   {
+      "URL" : "http://192.168.20.137:5004/auto/v38.3",
+      "GuideNumber" : "38.3",
+      "HD" : 1,
+      "GuideName" : "KTNC",
+      "VideoCodec" : "MPEG2",
+      "AudioCodec" : "AC3"
+   },
+   {
+      "GuideNumber" : "38.4",
+      "GuideName" : "Comet",
+      "URL" : "http://192.168.20.137:5004/auto/v38.4",
+      "VideoCodec" : "MPEG2",
+      "AudioCodec" : "AC3"
+   },
+   {
+      "URL" : "http://192.168.20.137:5004/auto/v38.5",
+      "GuideName" : "NTD",
+      "GuideNumber" : "38.5",
+      "VideoCodec" : "MPEG2",
+      "AudioCodec" : "AC3"
+   },
+   {
+      "GuideNumber" : "38.6",
+      "GuideName" : "Works",
+      "URL" : "http://192.168.20.137:5004/auto/v38.6",
+      "VideoCodec" : "MPEG2",
+      "AudioCodec" : "AC3"
+   },
+   {
+      "AudioCodec" : "AC3",
+      "VideoCodec" : "MPEG2",
+      "GuideName" : "KBCW-DT",
+      "HD" : 1,
+      "GuideNumber" : "44.1",
+      "URL" : "http://192.168.20.137:5004/auto/v44.1"
+   },
+   {
+      "VideoCodec" : "MPEG2",
+      "AudioCodec" : "AC3",
+      "GuideNumber" : "48.1",
+      "HD" : 1,
+      "GuideName" : "KSTS-HD",
+      "URL" : "http://192.168.20.137:5004/auto/v48.1"
+   },
+   {
+      "GuideName" : "TeleX",
+      "GuideNumber" : "48.2",
+      "URL" : "http://192.168.20.137:5004/auto/v48.2",
+      "VideoCodec" : "MPEG2",
+      "AudioCodec" : "AC3"
+   },
+   {
+      "GuideName" : "KSTS HD",
+      "HD" : 1,
+      "GuideNumber" : "48.3",
+      "URL" : "http://192.168.20.137:5004/auto/v48.3",
+      "AudioCodec" : "AC3",
+      "VideoCodec" : "MPEG2"
+   },
+   {
+      "VideoCodec" : "MPEG2",
+      "AudioCodec" : "AC3",
+      "HD" : 1,
+      "GuideNumber" : "50.1",
+      "GuideName" : "KEMO-HD",
+      "URL" : "http://192.168.20.137:5004/auto/v50.1"
+   },
+   {
+      "AudioCodec" : "AC3",
+      "VideoCodec" : "MPEG2",
+      "GuideNumber" : "50.2",
+      "GuideName" : "QVC-OTA",
+      "URL" : "http://192.168.20.137:5004/auto/v50.2"
+   },
+   {
+      "VideoCodec" : "MPEG2",
+      "AudioCodec" : "AC3",
+      "URL" : "http://192.168.20.137:5004/auto/v50.3",
+      "GuideName" : "QVCPLUS",
+      "GuideNumber" : "50.3"
+   },
+   {
+      "AudioCodec" : "AC3",
+      "VideoCodec" : "MPEG2",
+      "URL" : "http://192.168.20.137:5004/auto/v50.4",
+      "GuideNumber" : "50.4",
+      "GuideName" : "EVINE"
+   },
+   {
+      "GuideNumber" : "50.5",
+      "GuideName" : "LifeHks",
+      "URL" : "http://192.168.20.137:5004/auto/v50.5",
+      "AudioCodec" : "AC3",
+      "VideoCodec" : "MPEG2"
+   },
+   {
+      "URL" : "http://192.168.20.137:5004/auto/v54.1",
+      "GuideName" : "KQED+",
+      "GuideNumber" : "54.1",
+      "AudioCodec" : "AC3",
+      "VideoCodec" : "MPEG2"
+   },
+   {
+      "VideoCodec" : "MPEG2",
+      "AudioCodec" : "AC3",
+      "GuideNumber" : "54.2",
+      "GuideName" : "KQED",
+      "URL" : "http://192.168.20.137:5004/auto/v54.2"
+   },
+   {
+      "AudioCodec" : "AC3",
+      "VideoCodec" : "MPEG2",
+      "GuideNumber" : "54.3",
+      "GuideName" : "LIFE",
+      "URL" : "http://192.168.20.137:5004/auto/v54.3"
+   },
+   {
+      "AudioCodec" : "AC3",
+      "VideoCodec" : "MPEG2",
+      "GuideNumber" : "54.4",
+      "GuideName" : "KIDS",
+      "URL" : "http://192.168.20.137:5004/auto/v54.4"
+   },
+   {
+      "GuideName" : "World",
+      "GuideNumber" : "54.5",
+      "URL" : "http://192.168.20.137:5004/auto/v54.5",
+      "VideoCodec" : "MPEG2",
+      "AudioCodec" : "AC3"
+   },
+   {
+      "VideoCodec" : "MPEG2",
+      "AudioCodec" : "AC3",
+      "HD" : 1,
+      "GuideName" : "KCSM",
+      "GuideNumber" : "60.1",
+      "URL" : "http://192.168.20.137:5004/auto/v60.1"
+   },
+   {
+      "AudioCodec" : "AC3",
+      "VideoCodec" : "MPEG2",
+      "GuideNumber" : "60.2",
+      "GuideName" : "KCSMF24",
+      "URL" : "http://192.168.20.137:5004/auto/v60.2"
+   },
+   {
+      "URL" : "http://192.168.20.137:5004/auto/v60.3",
+      "GuideNumber" : "60.3",
+      "GuideName" : "Jazz-TV",
+      "AudioCodec" : "AC3",
+      "VideoCodec" : "MPEG2"
+   },
+   {
+      "GuideNumber" : "65.1",
+      "HD" : 1,
+      "GuideName" : "ION",
+      "URL" : "http://192.168.20.137:5004/auto/v65.1",
+      "VideoCodec" : "MPEG2",
+      "AudioCodec" : "AC3"
+   },
+   {
+      "URL" : "http://192.168.20.137:5004/auto/v65.2",
+      "GuideNumber" : "65.2",
+      "GuideName" : "qubo",
+      "AudioCodec" : "AC3",
+      "VideoCodec" : "MPEG2"
+   },
+   {
+      "VideoCodec" : "MPEG2",
+      "AudioCodec" : "AC3",
+      "GuideName" : "IONLife",
+      "GuideNumber" : "65.3",
+      "URL" : "http://192.168.20.137:5004/auto/v65.3"
+   },
+   {
+      "URL" : "http://192.168.20.137:5004/auto/v65.4",
+      "GuideNumber" : "65.4",
+      "GuideName" : "Shop",
+      "VideoCodec" : "MPEG2",
+      "AudioCodec" : "AC3"
+   },
+   {
+      "AudioCodec" : "AC3",
+      "VideoCodec" : "MPEG2",
+      "GuideNumber" : "65.5",
+      "GuideName" : "HSN",
+      "URL" : "http://192.168.20.137:5004/auto/v65.5"
+   },
+   {
+      "URL" : "http://192.168.20.137:5004/auto/v65.6",
+      "GuideNumber" : "65.6",
+      "GuideName" : "QVC",
+      "AudioCodec" : "AC3",
+      "VideoCodec" : "MPEG2"
+   },
+   {
+      "VideoCodec" : "MPEG2",
+      "AudioCodec" : "AC3",
+      "GuideNumber" : "66.1",
+      "HD" : 1,
+      "GuideName" : "KFSF-HD",
+      "URL" : "http://192.168.20.137:5004/auto/v66.1"
+   },
+   {
+      "URL" : "http://192.168.20.137:5004/auto/v66.2",
+      "GuideNumber" : "66.2",
+      "HD" : 1,
+      "GuideName" : "KDTV-HD",
+      "VideoCodec" : "MPEG2",
+      "AudioCodec" : "AC3"
+   },
+   {
+      "URL" : "http://192.168.20.137:5004/auto/v66.3",
+      "GuideNumber" : "66.3",
+      "GuideName" : "Bounce",
+      "VideoCodec" : "MPEG2",
+      "AudioCodec" : "AC3"
+   },
+   {
+      "VideoCodec" : "MPEG2",
+      "AudioCodec" : "AC3",
+      "GuideName" : "Grit",
+      "GuideNumber" : "66.4",
+      "URL" : "http://192.168.20.137:5004/auto/v66.4"
+   },
+   {
+      "VideoCodec" : "MPEG2",
+      "AudioCodec" : "MPEG",
+      "GuideNumber" : "68.1",
+      "GuideName" : "KTLN-DT",
+      "URL" : "http://192.168.20.137:5004/auto/v68.1"
+   },
+   {
+      "URL" : "http://192.168.20.137:5004/auto/v68.2",
+      "GuideName" : "JTV",
+      "GuideNumber" : "68.2",
+      "AudioCodec" : "AC3",
+      "VideoCodec" : "MPEG2"
+   },
+   {
+      "GuideNumber" : "68.3",
+      "GuideName" : "SBN",
+      "URL" : "http://192.168.20.137:5004/auto/v68.3",
+      "VideoCodec" : "MPEG2",
+      "AudioCodec" : "AC3"
+   },
+   {
+      "VideoCodec" : "MPEG2",
+      "AudioCodec" : "AC3",
+      "URL" : "http://192.168.20.137:5004/auto/v68.4",
+      "GuideNumber" : "68.4",
+      "GuideName" : "U-CHANN"
+   },
+   {
+      "URL" : "http://192.168.20.137:5004/auto/v5000",
+      "HD" : 1,
+      "GuideName" : "Unknown",
+      "GuideNumber" : "5000",
+      "VideoCodec" : "MPEG2",
+      "AudioCodec" : "AC3"
+   },
+   {
+      "VideoCodec" : "MPEG2",
+      "AudioCodec" : "AC3",
+      "GuideName" : "Unknown",
+      "GuideNumber" : "5001",
+      "URL" : "http://192.168.20.137:5004/auto/v5001"
+   },
+   {
+      "VideoCodec" : "MPEG2",
+      "AudioCodec" : "AC3",
+      "URL" : "http://192.168.20.137:5004/auto/v5002",
+      "GuideNumber" : "5002",
+      "GuideName" : "Unknown"
+   },
+   {
+      "URL" : "http://192.168.20.137:5004/auto/v5003",
+      "GuideName" : "Unknown",
+      "GuideNumber" : "5003",
+      "VideoCodec" : "MPEG2",
+      "AudioCodec" : "AC3"
+   },
+   {
+      "AudioCodec" : "AC3",
+      "VideoCodec" : "MPEG2",
+      "GuideName" : "Unknown",
+      "HD" : 1,
+      "GuideNumber" : "5004",
+      "URL" : "http://192.168.20.137:5004/auto/v5004"
+   }
+]

@@ -1,0 +1,16 @@
+#!/bin/bash
+
+JAR_DIR=../lib
+export LOCALCLASSPATH=
+
+for jar in `ls $JAR_DIR/*jar`
+do
+    LOCALCLASSPATH=$LOCALCLASSPATH:$jar
+done
+
+LOCALCLASSPATH=$LOCALCLASSPATH:../classes/main:../resources/main
+
+#echo "Classpath: $LOCALCLASSPATH"
+
+$JAVA_HOME/bin/java -Xmx1024m $JAVA_OPTIONS -cp $LOCALCLASSPATH $*
+

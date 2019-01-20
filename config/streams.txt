@@ -1,0 +1,76 @@
+#
+# Streams at 94607
+# http://tvlistings.zap2it.com/tvlistings/ZCGrid.do?method=decideFwdForLineup&zipcode=94607&setMyPreference=false&lineupId=PC:94607&aid=zap2it
+#
+#
+#   HD Homerun orig  1047BA79-1
+#   HD Homerun new - 1047BA79-1
+#
+# HDHomerun raw URL: 
+#   http://192.168.20.137:5004/auto/v20.1
+
+2.1-KTVU-HD,KTVUDT,2.1 KTVU (FOX),hdhomerun://1047BA79-1/tuner1?channel=8vsb:44&program=3
+
+# 2.2 looks to be a spanish language option
+#2.2-KTVU-SD,I120.186315923.microsoft.com,2.2 KTVU (FOX),hdhomerun://1047BA79-1/tuner1?channel=8vsb:44&program=4
+
+# KRON is a local, indi station
+4.1-KRON-HD,KRONDT,4.1 KRON,hdhomerun://1047BA79-1/tuner1?channel=8vsb:38&program=4
+4.2-KRON-news,KRONDT2,4.2 KRON news,hdhomerun://1047BA79-1/tuner1?channel=8vsb:38&program=3
+4.3-KRON-3,KRONDT3,4.3 Classic,hdhomerun://1047BA79-1/tuner1?channel=8vsb:38&program=5
+
+#CBS
+5.1-KPIX,KPIXDT,5.1 KPIX (CBS),hdhomerun://1047BA79-1/tuner1?channel=8vsb:29&program=1
+
+# 7.1 kgo - ABC affiliate
+7.1-KGO-HD,KGODT,7.1 KGO (ABC),hdhomerun://1047BA79-1/tuner1?channel=8vsb:7&program=3
+7.2-LIVEWELL-HD,KGODT2,7.2 Livewell,hdhomerun://1047BA79-1/tuner1?channel=8vsb:7&program=4
+#7.3-LIVEWELL-SD|hdhomerun://1047BA79-1/tuner1?channel=8vsb:7&program=5
+
+# PBS
+9.1-KQED-HD,KQEDDT,9.1 KQED (PBS),hdhomerun://1047BA79-1/tuner1?channel=8vsb:30&program=1
+9.2-KQED-PLUS,KQEDDT2,9.2 KQED+ (PBS),hdhomerun://1047BA79-1/tuner1?channel=8vsb:30&program=2
+9.3-KQED-WORLD,KQEDDT3,9.3 World (PBS),hdhomerun://1047BA79-1/tuner1?channel=8vsb:30&program=3
+
+# 11.1 NBC
+11.1-KNTV-HD,KNTVDT,11.1 KNTV (NBC),hdhomerun://1047BA79-1/tuner1?channel=8vsb:12&program=3
+11.2-COZI-TV,KNTVDT2,11.2 COZI-TV,hdhomerun://1047BA79-1/tuner1?channel=8vsb:12&program=4
+
+# 36.1 is a COX/FOX afiliate, but still independent
+36.1-KICU-HD,KICUDT,36.1 KICU,hdhomerun://1047BA79-1/tuner1?channel=8vsb:36&program=3
+
+44.1-KBCW-HD,KTNCDT2,44.1 KBCW (CBS),hdhomerun://1047BA79-1/tuner1?channel=8vsb:45&program=1
+
+# KQED - can't find this in the xmltv feed.  5 kqed channels.  
+
+
+54.1-KQED-P,KQEHDT3,54.1 KQED+ (PBS),hdhomerun://1047BA79-1/tuner1?channel=8vsb:50&program=1
+54.2-KQED,KQEHDT4,54.2 KQED (PBS),hdhomerun://1047BA79-1/tuner1?channel=8vsb:50&program=2
+54.3-LIFE,KQEHDT5,54.3 LIFE,hdhomerun://1047BA79-1/tuner1?channel=8vsb:50&program=3
+
+# Kids, and spanish
+#54.4-KIDS,I138.190408571.microsoft.com,54.4 KIDS,hdhomerun://1047BA79-1/tuner1?channel=8vsb:50&program=4
+#54.5-V-ME,I139.193702929.microsoft.com,54.5 V-me,hdhomerun://1047BA79-1/tuner1?channel=8vsb:50&program=5
+
+
+60.1-KCSM,KCSMDT2,60.1 KCSM,hdhomerun://1047BA79-1/tuner1?channel=8vsb:43&program=3
+60.2-KCSM-2,KCSMDT3,60.2 KCSM,hdhomerun://1047BA79-1/tuner1?channel=8vsb:43&program=4
+60.3-JAZZ-TV,KTVUDT,60.3 Jazz TV,hdhomerun://1047BA79-1/tuner1?channel=8vsb:43&program=5
+
+65.1-ION,KKPXDT,65.1 ION,hdhomerun://1047BA79-1/tuner1?channel=8vsb:41&program=3
+65.3-ION,KKPXDT3,65.3 ION Life,hdhomerun://1047BA79-1/tuner1?channel=8vsb:41&program=5
+
+# An indi station, formerly "the WB"
+20.1-KOFY-HD,KOFYDT,20.1 KOFY,hdhomerun://1047BA79-1/tuner1?channel=8vsb:19&program=3
+20.2-MeTV,KOFYDT2,20.2 MeTV,hdhomerun://1047BA79-1/tuner1?channel=8vsb:19&program=5
+
+# 14.1 univision
+# 26.X is Asian
+# 27.1 - asian
+# 28.X is random crap - spanish music videos
+# 32.X is raddom asian
+# 38.X is foreign
+# 40.1 spanish religious
+# 48.X spanish
+# 68.x infomercial??  poor signal
+# 66.1 is univision - spanish

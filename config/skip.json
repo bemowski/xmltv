@@ -1,0 +1,22 @@
+[
+  "1\\..*",  // skip all channels 1
+  "2.2", "2.4", // 2.2 spanish, 2.4 game shows 
+  "11\\..*", // 11.1 = NBC.  Channel 11 may be interesting, but does not come in.
+  "14\\..*",   // Univision
+  "20.3", // asian
+  "22\\..*", // PBS, poor/no reception
+  "26\\..*",
+  "27\\.1",
+  "28\\..*",
+  "36\\..*",
+  "38\\..*",
+  "32\\..*",  // asian
+  "40\\.1",
+  "48\\..*",  // spanish
+  "50\\..*",
+  "54.4", // PBS kids
+  "65.2", "65.5", "65.6", // shopping
+  "66\\..*",
+  "68\\..*",  // shopping
+  "500.*"
+]

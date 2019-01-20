@@ -1,0 +1,10 @@
+rpi3:
+  serial: 00000000d1443e5e  /proc/cpuinfo
+
+
+decode_MPG2=0x1ea66019
+
+If you want to verify that the codecs are now enabled, the following commands will report their status:
+
+vcgencmd codec_enabled MPG2
+vcgencmd codec_enabled WVC1

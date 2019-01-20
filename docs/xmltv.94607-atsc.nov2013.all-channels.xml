@@ -1,0 +1,782 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE tv SYSTEM "xmltv.dtd">
+
+<tv source-info-name="Zap2it" generator-info-name="mc2xml" generator-info-url="mailto:mc2xml@gmail.com">
+	<channel id="I28.28459897.microsoft.com">
+		<display-name>28 KFTLCA</display-name>
+		<display-name>28</display-name>
+		<display-name>KFTLCA</display-name>
+		<display-name>KFTL-CA</display-name>
+		<display-name>Low Power</display-name>
+	</channel>
+	<channel id="I32.28459281.microsoft.com">
+		<display-name>32 KMTP</display-name>
+		<display-name>32</display-name>
+		<display-name>KMTP</display-name>
+		<display-name>Independent</display-name>
+	</channel>
+	<channel id="I33.28455309.microsoft.com">
+		<display-name>33 KGODT</display-name>
+		<display-name>33</display-name>
+		<display-name>KGODT</display-name>
+		<display-name>KGODT (KGO-DT)</display-name>
+		<display-name>ABC Affiliate</display-name>
+	</channel>
+	<channel id="I34.41133538.microsoft.com">
+		<display-name>34 KGODT2</display-name>
+		<display-name>34</display-name>
+		<display-name>KGODT2</display-name>
+		<display-name>KGODT2 (KGO-DT2)</display-name>
+		<display-name>Independent</display-name>
+	</channel>
+	<channel id="I35.47470913.microsoft.com">
+		<display-name>35 KGODT3</display-name>
+		<display-name>35</display-name>
+		<display-name>KGODT3</display-name>
+		<display-name>KGODT3 (KGO-DT3)</display-name>
+		<display-name>Independent</display-name>
+	</channel>
+	<channel id="I36.29392039.microsoft.com">
+		<display-name>36 KVIEDT</display-name>
+		<display-name>36</display-name>
+		<display-name>KVIEDT</display-name>
+		<display-name>KVIEDT (KVIE-DT)</display-name>
+		<display-name>PBS Affiliate</display-name>
+	</channel>
+	<channel id="I37.41650717.microsoft.com">
+		<display-name>37 KVIEDT2</display-name>
+		<display-name>37</display-name>
+		<display-name>KVIEDT2</display-name>
+		<display-name>KVIEDT2 (KVIE-DT2)</display-name>
+		<display-name>PBS Affiliate</display-name>
+	</channel>
+	<channel id="I38.41133541.microsoft.com">
+		<display-name>38 KVIEDT3</display-name>
+		<display-name>38</display-name>
+		<display-name>KVIEDT3</display-name>
+		<display-name>KVIEDT3 (KVIE-DT3)</display-name>
+		<display-name>Independent</display-name>
+	</channel>
+	<channel id="I39.28459824.microsoft.com">
+		<display-name>39 KXTVDT</display-name>
+		<display-name>39</display-name>
+		<display-name>KXTVDT</display-name>
+		<display-name>KXTVDT (KXTV-DT)</display-name>
+		<display-name>ABC Affiliate</display-name>
+	</channel>
+	<channel id="I40.46989940.microsoft.com">
+		<display-name>40 KXTVDT2</display-name>
+		<display-name>40</display-name>
+		<display-name>KXTVDT2</display-name>
+		<display-name>KXTVDT2 (KXTV-DT2)</display-name>
+		<display-name>Independent</display-name>
+	</channel>
+	<channel id="I41.28459991.microsoft.com">
+		<display-name>41 KNTVDT</display-name>
+		<display-name>41</display-name>
+		<display-name>KNTVDT</display-name>
+		<display-name>KNTVDT(KNTV-DT)</display-name>
+		<display-name>NBC Affiliate</display-name>
+	</channel>
+	<channel id="I42.41135558.microsoft.com">
+		<display-name>42 KNTVDT2</display-name>
+		<display-name>42</display-name>
+		<display-name>KNTVDT2</display-name>
+		<display-name>KNTVDT2 (KNTV-DT2)</display-name>
+		<display-name>Independent</display-name>
+	</channel>
+	<channel id="I43.186235177.microsoft.com">
+		<display-name>43 KTNCDT</display-name>
+		<display-name>43</display-name>
+		<display-name>KTNCDT</display-name>
+		<display-name>KTNCDT (KTNC-DT)</display-name>
+		<display-name>EstrellaTV Affiliate</display-name>
+	</channel>
+	<channel id="I44.225837507.microsoft.com">
+		<display-name>44 KTNCDT2</display-name>
+		<display-name>44</display-name>
+		<display-name>KTNCDT2</display-name>
+		<display-name>KTNCDT2 (KTNC-DT2)</display-name>
+		<display-name>EstrellaTV Affiliate</display-name>
+	</channel>
+	<channel id="I45.242092482.microsoft.com">
+		<display-name>45 KTNCDT3</display-name>
+		<display-name>45</display-name>
+		<display-name>KTNCDT3</display-name>
+		<display-name>KTNCDT3 (KTNC-DT3)</display-name>
+		<display-name>Independent</display-name>
+	</channel>
+	<channel id="I46.288172662.microsoft.com">
+		<display-name>46 KTNCDT4</display-name>
+		<display-name>46</display-name>
+		<display-name>KTNCDT4</display-name>
+		<display-name>KTNCDT4 (KTNC-DT4)</display-name>
+		<display-name>Independent</display-name>
+	</channel>
+	<channel id="I47.38562403.microsoft.com">
+		<display-name>47 KOFYDT</display-name>
+		<display-name>47</display-name>
+		<display-name>KOFYDT</display-name>
+		<display-name>KOFYDT (KOFY-DT)</display-name>
+		<display-name>Independent</display-name>
+	</channel>
+	<channel id="I48.173914469.microsoft.com">
+		<display-name>48 KOFYDT2</display-name>
+		<display-name>48</display-name>
+		<display-name>KOFYDT2</display-name>
+		<display-name>KOFYDT2 (KOFY-DT2)</display-name>
+		<display-name>Independent</display-name>
+	</channel>
+	<channel id="I49.29327511.microsoft.com">
+		<display-name>49 KMAXDT</display-name>
+		<display-name>49</display-name>
+		<display-name>KMAXDT</display-name>
+		<display-name>KMAXDT (KMAX-DT)</display-name>
+		<display-name>CW Affiliate</display-name>
+	</channel>
+	<channel id="I50.188190471.microsoft.com">
+		<display-name>50 KRCBDT</display-name>
+		<display-name>50</display-name>
+		<display-name>KRCBDT</display-name>
+		<display-name>KRCBDT (KRCB-DT)</display-name>
+		<display-name>PBS Affiliate</display-name>
+	</channel>
+	<channel id="I51.188190472.microsoft.com">
+		<display-name>51 KRCBDT2</display-name>
+		<display-name>51</display-name>
+		<display-name>KRCBDT2</display-name>
+		<display-name>KRCBDT2 (KRCB-DT2)</display-name>
+		<display-name>PBS Affiliate</display-name>
+	</channel>
+	<channel id="I52.195990978.microsoft.com">
+		<display-name>52 KRCBDT3</display-name>
+		<display-name>52</display-name>
+		<display-name>KRCBDT3</display-name>
+		<display-name>KRCBDT3 (KRCB-DT3)</display-name>
+		<display-name>Independent</display-name>
+	</channel>
+	<channel id="I53.29327512.microsoft.com">
+		<display-name>53 KOVRDT</display-name>
+		<display-name>53</display-name>
+		<display-name>KOVRDT</display-name>
+		<display-name>KOVRDT (KOVR-DT)</display-name>
+		<display-name>CBS Affiliate</display-name>
+	</channel>
+	<channel id="I54.46989948.microsoft.com">
+		<display-name>54 KOVRDT2</display-name>
+		<display-name>54</display-name>
+		<display-name>KOVRDT2</display-name>
+		<display-name>KOVRDT2 (KOVR-DT2)</display-name>
+		<display-name>CBS Affiliate</display-name>
+	</channel>
+	<channel id="I55.188190496.microsoft.com">
+		<display-name>55 KTFKDT</display-name>
+		<display-name>55</display-name>
+		<display-name>KTFKDT</display-name>
+		<display-name>KTFKDT (KTFK-DT)</display-name>
+		<display-name>UniMas Affiliate</display-name>
+	</channel>
+	<channel id="I56.230146014.microsoft.com">
+		<display-name>56 KTFKDT2</display-name>
+		<display-name>56</display-name>
+		<display-name>KTFKDT2</display-name>
+		<display-name>KTFKDT2 (KTFK-DT2)</display-name>
+		<display-name>UniMas Affiliate</display-name>
+	</channel>
+	<channel id="I57.44289598.microsoft.com">
+		<display-name>57 KTSFDT</display-name>
+		<display-name>57</display-name>
+		<display-name>KTSFDT</display-name>
+		<display-name>KTSFDT (KTSF-DT)</display-name>
+		<display-name>Independent</display-name>
+	</channel>
+	<channel id="I58.220389737.microsoft.com">
+		<display-name>58 KTSFDT3</display-name>
+		<display-name>58</display-name>
+		<display-name>KTSFDT3</display-name>
+		<display-name>KTSFDT3 (KTSF-DT3)</display-name>
+		<display-name>Independent</display-name>
+	</channel>
+	<channel id="I59.220389767.microsoft.com">
+		<display-name>59 KTSFDT4</display-name>
+		<display-name>59</display-name>
+		<display-name>KTSFDT4</display-name>
+		<display-name>KTSFDT4 (KTSF-DT4)</display-name>
+		<display-name>Independent</display-name>
+	</channel>
+	<channel id="I60.252953935.microsoft.com">
+		<display-name>60 KTSFDT5</display-name>
+		<display-name>60</display-name>
+		<display-name>KTSFDT5</display-name>
+		<display-name>KTSFDT5 (KTSF-DT5)</display-name>
+		<display-name>Independent</display-name>
+	</channel>
+	<channel id="I61.292146879.microsoft.com">
+		<display-name>61 KTSFDT6</display-name>
+		<display-name>61</display-name>
+		<display-name>KTSFDT6</display-name>
+		<display-name>KTSFDT6 (KTSF-DT6)</display-name>
+		<display-name>Independent</display-name>
+	</channel>
+	<channel id="I62.221053874.microsoft.com">
+		<display-name>62 KFTLCD</display-name>
+		<display-name>62</display-name>
+		<display-name>KFTLCD</display-name>
+		<display-name>KFTL-CD</display-name>
+		<display-name>Low Power</display-name>
+	</channel>
+	<channel id="I63.251986907.microsoft.com">
+		<display-name>63 KFTLCD2</display-name>
+		<display-name>63</display-name>
+		<display-name>KFTLCD2</display-name>
+		<display-name>KFTLCD2 (KFTL-CD2)</display-name>
+		<display-name>Low Power</display-name>
+	</channel>
+	<channel id="I64.251986904.microsoft.com">
+		<display-name>64 KFTLD10</display-name>
+		<display-name>64</display-name>
+		<display-name>KFTLD10</display-name>
+		<display-name>KFTLCD10 (KFTLCD-10)</display-name>
+		<display-name>Low Power</display-name>
+	</channel>
+	<channel id="I65.251986905.microsoft.com">
+		<display-name>65 KFTLD15</display-name>
+		<display-name>65</display-name>
+		<display-name>KFTLD15</display-name>
+		<display-name>KFTLCD15 (KFTL-CD15)</display-name>
+		<display-name>Low Power</display-name>
+	</channel>
+	<channel id="I66.28456657.microsoft.com">
+		<display-name>66 KPIXDT</display-name>
+		<display-name>66</display-name>
+		<display-name>KPIXDT</display-name>
+		<display-name>KPIXDT (KPIX-DT)</display-name>
+		<display-name>CBS Affiliate</display-name>
+	</channel>
+	<channel id="I67.28456989.microsoft.com">
+		<display-name>67 KQEDDT</display-name>
+		<display-name>67</display-name>
+		<display-name>KQEDDT</display-name>
+		<display-name>KQEDDT (KQED-DT)</display-name>
+		<display-name>PBS Affiliate</display-name>
+	</channel>
+	<channel id="I68.28457920.microsoft.com">
+		<display-name>68 KQEDDT2</display-name>
+		<display-name>68</display-name>
+		<display-name>KQEDDT2</display-name>
+		<display-name>KQEDDT2 (KQED-DT2)</display-name>
+		<display-name>PBS Affiliate</display-name>
+	</channel>
+	<channel id="I69.28459030.microsoft.com">
+		<display-name>69 KQEDDT3</display-name>
+		<display-name>69</display-name>
+		<display-name>KQEDDT3</display-name>
+		<display-name>KQEDDT3 KQED World (KQED-DT3)</display-name>
+		<display-name>PBS Affiliate</display-name>
+	</channel>
+	<channel id="I70.49475287.microsoft.com">
+		<display-name>70 KEMODT</display-name>
+		<display-name>70</display-name>
+		<display-name>KEMODT</display-name>
+		<display-name>KEMODT (KEMO-DT)</display-name>
+		<display-name>Azteca America Affiliate</display-name>
+	</channel>
+	<channel id="I71.290208912.microsoft.com">
+		<display-name>71 KEMODT2</display-name>
+		<display-name>71</display-name>
+		<display-name>KEMODT2</display-name>
+		<display-name>KEMODT2 (KEMO-DT2)</display-name>
+		<display-name>Azteca America Affiliate</display-name>
+	</channel>
+	<channel id="I72.188190486.microsoft.com">
+		<display-name>72 KMTPDT</display-name>
+		<display-name>72</display-name>
+		<display-name>KMTPDT</display-name>
+		<display-name>KMTPDT (KMTP-DT)</display-name>
+		<display-name>Independent</display-name>
+	</channel>
+	<channel id="I73.200176999.microsoft.com">
+		<display-name>73 KMTPDT2</display-name>
+		<display-name>73</display-name>
+		<display-name>KMTPDT2</display-name>
+		<display-name>KMTPDT2 (KMTP-DT2)</display-name>
+		<display-name>Independent</display-name>
+	</channel>
+	<channel id="I74.200177020.microsoft.com">
+		<display-name>74 KMTPDT4</display-name>
+		<display-name>74</display-name>
+		<display-name>KMTPDT4</display-name>
+		<display-name>KMTPDT4 (KMTP-DT4)</display-name>
+		<display-name>Independent</display-name>
+	</channel>
+	<channel id="I75.195990613.microsoft.com">
+		<display-name>75 KMTPDT5</display-name>
+		<display-name>75</display-name>
+		<display-name>KMTPDT5</display-name>
+		<display-name>KMTPDT5 (KMTP-DT5)</display-name>
+		<display-name>Independent</display-name>
+	</channel>
+	<channel id="I76.283280949.microsoft.com">
+		<display-name>76 KMTPDT6</display-name>
+		<display-name>76</display-name>
+		<display-name>KMTPDT6</display-name>
+		<display-name>KMTPDT6 (KMTP-DT6)</display-name>
+		<display-name>Independent</display-name>
+	</channel>
+	<channel id="I77.188190479.microsoft.com">
+		<display-name>77 KFSFDT</display-name>
+		<display-name>77</display-name>
+		<display-name>KFSFDT</display-name>
+		<display-name>KFSFDT (KFSF-DT)</display-name>
+		<display-name>UniMas Affiliate</display-name>
+	</channel>
+	<channel id="I78.188190515.microsoft.com">
+		<display-name>78 KFSFDT2</display-name>
+		<display-name>78</display-name>
+		<display-name>KFSFDT2</display-name>
+		<display-name>KFSFDT2 (KFSF-DT2)</display-name>
+		<display-name>Independent</display-name>
+	</channel>
+	<channel id="I79.292146870.microsoft.com">
+		<display-name>79 KFSFDT3</display-name>
+		<display-name>79</display-name>
+		<display-name>KFSFDT3</display-name>
+		<display-name>KFSFDT3 (KFSF-DT3)</display-name>
+		<display-name>Independent</display-name>
+	</channel>
+	<channel id="I80.28456382.microsoft.com">
+		<display-name>80 KCRADT</display-name>
+		<display-name>80</display-name>
+		<display-name>KCRADT</display-name>
+		<display-name>KCRADT (KCRA-DT)</display-name>
+		<display-name>NBC Affiliate</display-name>
+	</channel>
+	<channel id="I81.44701954.microsoft.com">
+		<display-name>81 KCRADT2</display-name>
+		<display-name>81</display-name>
+		<display-name>KCRADT2</display-name>
+		<display-name>KCRADT2 (KCRA-DT2)</display-name>
+		<display-name>Independent</display-name>
+	</channel>
+	<channel id="I82.41113432.microsoft.com">
+		<display-name>82 KICUDT</display-name>
+		<display-name>82</display-name>
+		<display-name>KICUDT</display-name>
+		<display-name>KICUDT (KICU-DT)</display-name>
+		<display-name>Independent</display-name>
+	</channel>
+	<channel id="I83.183422071.microsoft.com">
+		<display-name>83 KICUDT2</display-name>
+		<display-name>83</display-name>
+		<display-name>KICUDT2</display-name>
+		<display-name>KICUDT2 (KICU-DT2)</display-name>
+		<display-name>Independent</display-name>
+	</channel>
+	<channel id="I84.235898401.microsoft.com">
+		<display-name>84 KICUDT3</display-name>
+		<display-name>84</display-name>
+		<display-name>KICUDT3</display-name>
+		<display-name>KICUDT3 (KICU-DT3)</display-name>
+		<display-name>Independent</display-name>
+	</channel>
+	<channel id="I85.29228906.microsoft.com">
+		<display-name>85 KRONDT</display-name>
+		<display-name>85</display-name>
+		<display-name>KRONDT</display-name>
+		<display-name>KRONDT (KRON-DT)</display-name>
+		<display-name>MyNetworkTV Affiliate</display-name>
+	</channel>
+	<channel id="I86.42779434.microsoft.com">
+		<display-name>86 KRONDT2</display-name>
+		<display-name>86</display-name>
+		<display-name>KRONDT2</display-name>
+		<display-name>KRONDT2 (KRON-DT2)</display-name>
+		<display-name>Independent</display-name>
+	</channel>
+	<channel id="I87.292632149.microsoft.com">
+		<display-name>87 KRONDT3</display-name>
+		<display-name>87</display-name>
+		<display-name>KRONDT3</display-name>
+		<display-name>KRONDT3 (KRON-DT3)</display-name>
+		<display-name>Independent</display-name>
+	</channel>
+	<channel id="I88.188190466.microsoft.com">
+		<display-name>88 KCNSDT</display-name>
+		<display-name>88</display-name>
+		<display-name>KCNSDT</display-name>
+		<display-name>KCNSDT (KCNS-DT)</display-name>
+		<display-name>MundoFOX Affiliate</display-name>
+	</channel>
+	<channel id="I89.220389741.microsoft.com">
+		<display-name>89 KCNSDT2</display-name>
+		<display-name>89</display-name>
+		<display-name>KCNSDT2</display-name>
+		<display-name>KCNSDT2 (KCNS-DT2)</display-name>
+		<display-name>Independent</display-name>
+	</channel>
+	<channel id="I90.232286901.microsoft.com">
+		<display-name>90 KCNSDT3</display-name>
+		<display-name>90</display-name>
+		<display-name>KCNSDT3</display-name>
+		<display-name>KCNSDT3 (KCNS-DT3)</display-name>
+		<display-name>EstrellaTV Affiliate</display-name>
+	</channel>
+	<channel id="I91.267539021.microsoft.com">
+		<display-name>91 KCNSDT4</display-name>
+		<display-name>91</display-name>
+		<display-name>KCNSDT4</display-name>
+		<display-name>KCNSDT4 (KCNS-DT4)</display-name>
+		<display-name>Independent</display-name>
+	</channel>
+	<channel id="I92.280160102.microsoft.com">
+		<display-name>92 KCNSDT5</display-name>
+		<display-name>92</display-name>
+		<display-name>KCNSDT5</display-name>
+		<display-name>KCNSDT5 (KCNS-DT5)</display-name>
+		<display-name>Independent</display-name>
+	</channel>
+	<channel id="I93.282267566.microsoft.com">
+		<display-name>93 KMMCLD</display-name>
+		<display-name>93</display-name>
+		<display-name>KMMCLD</display-name>
+		<display-name>KMMCLD (KMMC-LD)</display-name>
+		<display-name>Low Power</display-name>
+	</channel>
+	<channel id="I94.29392042.microsoft.com">
+		<display-name>94 KTXLDT</display-name>
+		<display-name>94</display-name>
+		<display-name>KTXLDT</display-name>
+		<display-name>KTXLDT (KTXL-DT)</display-name>
+		<display-name>Fox Affiliate</display-name>
+	</channel>
+	<channel id="I95.49550408.microsoft.com">
+		<display-name>95 KTXLDT2</display-name>
+		<display-name>95</display-name>
+		<display-name>KTXLDT2</display-name>
+		<display-name>KTXLDT2 (KTXL-DT2)</display-name>
+		<display-name>Independent</display-name>
+	</channel>
+	<channel id="I96.182834730.microsoft.com">
+		<display-name>96 KKPXDT</display-name>
+		<display-name>96</display-name>
+		<display-name>KKPXDT</display-name>
+		<display-name>KKPXDT (KKPX-DT)</display-name>
+		<display-name>ION Affiliate</display-name>
+	</channel>
+	<channel id="I97.182834731.microsoft.com">
+		<display-name>97 KKPXDT2</display-name>
+		<display-name>97</display-name>
+		<display-name>KKPXDT2</display-name>
+		<display-name>KKPXDT2 (KKPX-DT2)</display-name>
+		<display-name>Independent</display-name>
+	</channel>
+	<channel id="I98.182834732.microsoft.com">
+		<display-name>98 KKPXDT3</display-name>
+		<display-name>98</display-name>
+		<display-name>KKPXDT3</display-name>
+		<display-name>KKPXDT3 (KKPX-DT3)</display-name>
+		<display-name>ION Affiliate</display-name>
+	</channel>
+	<channel id="I99.188190491.microsoft.com">
+		<display-name>99 KKPXDT4</display-name>
+		<display-name>99</display-name>
+		<display-name>KKPXDT4</display-name>
+		<display-name>KKPXDT4 (KKPX-DT4)</display-name>
+		<display-name>ION Affiliate</display-name>
+	</channel>
+	<channel id="I100.223947222.microsoft.com">
+		<display-name>100 KAXTLD</display-name>
+		<display-name>100</display-name>
+		<display-name>KAXTLD</display-name>
+		<display-name>KAXTLD (KAXT-LD)</display-name>
+		<display-name>Low Power</display-name>
+	</channel>
+	<channel id="I101.236823548.microsoft.com">
+		<display-name>101 KAXTLD2</display-name>
+		<display-name>101</display-name>
+		<display-name>KAXTLD2</display-name>
+		<display-name>KAXTLD2 (KAXT-LD2)</display-name>
+		<display-name>Low Power</display-name>
+	</channel>
+	<channel id="I102.232064920.microsoft.com">
+		<display-name>102 KAXTLD3</display-name>
+		<display-name>102</display-name>
+		<display-name>KAXTLD3</display-name>
+		<display-name>KAXTLD3 (KAXT-LD3)</display-name>
+		<display-name>Low Power</display-name>
+	</channel>
+	<channel id="I103.245144555.microsoft.com">
+		<display-name>103 KAXTLD4</display-name>
+		<display-name>103</display-name>
+		<display-name>KAXTLD4</display-name>
+		<display-name>KAXTLD4 (KAXT-LD4)</display-name>
+		<display-name>Low Power</display-name>
+	</channel>
+	<channel id="I104.245144548.microsoft.com">
+		<display-name>104 KAXTLD5</display-name>
+		<display-name>104</display-name>
+		<display-name>KAXTLD5</display-name>
+		<display-name>KAXTLD5 (KAXT-LD5)</display-name>
+		<display-name>Low Power</display-name>
+	</channel>
+	<channel id="I105.223947217.microsoft.com">
+		<display-name>105 KAXTLD6</display-name>
+		<display-name>105</display-name>
+		<display-name>KAXTLD6</display-name>
+		<display-name>KAXTLD6 (KAXT-LD6)</display-name>
+		<display-name>Low Power</display-name>
+	</channel>
+	<channel id="I106.223947228.microsoft.com">
+		<display-name>106 KAXTLD7</display-name>
+		<display-name>106</display-name>
+		<display-name>KAXTLD7</display-name>
+		<display-name>KAXTLD7 (KAXT-LD7)</display-name>
+		<display-name>Low Power</display-name>
+	</channel>
+	<channel id="I107.223947223.microsoft.com">
+		<display-name>107 KAXTLD8</display-name>
+		<display-name>107</display-name>
+		<display-name>KAXTLD8</display-name>
+		<display-name>KAXTLD8 (KAXT-LD8)</display-name>
+		<display-name>Low Power</display-name>
+	</channel>
+	<channel id="I108.223947213.microsoft.com">
+		<display-name>108 KAXTLD9</display-name>
+		<display-name>108</display-name>
+		<display-name>KAXTLD9</display-name>
+		<display-name>KAXTLD9 (KAXT-LD9)</display-name>
+		<display-name>Low Power</display-name>
+	</channel>
+	<channel id="I109.245144552.microsoft.com">
+		<display-name>109 KAXTD10</display-name>
+		<display-name>109</display-name>
+		<display-name>KAXTD10</display-name>
+		<display-name>KAXTLD10 (KAXT-LD10)</display-name>
+		<display-name>Low Power</display-name>
+	</channel>
+	<channel id="I110.223947219.microsoft.com">
+		<display-name>110 KAXTLD11</display-name>
+		<display-name>110</display-name>
+		<display-name>KAXTLD11</display-name>
+		<display-name>KAXTLD11 (KAXT-LD11)</display-name>
+		<display-name>Low Power</display-name>
+	</channel>
+	<channel id="I111.223947214.microsoft.com">
+		<display-name>111 KAXTLD12</display-name>
+		<display-name>111</display-name>
+		<display-name>KAXTLD12</display-name>
+		<display-name>KAXTLD12 (KAXT-LD12)</display-name>
+		<display-name>Low Power</display-name>
+	</channel>
+	<channel id="I112.247070442.microsoft.com">
+		<display-name>112 KAXTD13</display-name>
+		<display-name>112</display-name>
+		<display-name>KAXTD13</display-name>
+		<display-name>KAXTLD13 (KAXT-LD13)</display-name>
+		<display-name>Low Power</display-name>
+	</channel>
+	<channel id="I113.257174333.microsoft.com">
+		<display-name>113 KAXTD14</display-name>
+		<display-name>113</display-name>
+		<display-name>KAXTD14</display-name>
+		<display-name>KAXTLD14 (KAXT-LD14)</display-name>
+		<display-name>Low Power</display-name>
+	</channel>
+	<channel id="I114.257174329.microsoft.com">
+		<display-name>114 KAXTD15</display-name>
+		<display-name>114</display-name>
+		<display-name>KAXTD15</display-name>
+		<display-name>KAXTLD15 (KAXT-LD15)</display-name>
+		<display-name>Low Power</display-name>
+	</channel>
+	<channel id="I115.278950921.microsoft.com">
+		<display-name>115 KAXTD16</display-name>
+		<display-name>115</display-name>
+		<display-name>KAXTD16</display-name>
+		<display-name>KAXTLD16 (KAXT-LD16)</display-name>
+		<display-name>Low Power</display-name>
+	</channel>
+	<channel id="I116.40121967.microsoft.com">
+		<display-name>116 KCSMDT</display-name>
+		<display-name>116</display-name>
+		<display-name>KCSMDT</display-name>
+		<display-name>KCSMDT (KCSM-DT)</display-name>
+		<display-name>Independent</display-name>
+	</channel>
+	<channel id="I117.43518158.microsoft.com">
+		<display-name>117 KCSMDT2</display-name>
+		<display-name>117</display-name>
+		<display-name>KCSMDT2</display-name>
+		<display-name>KCSMDT2 (KCSM-DT2)</display-name>
+		<display-name>Independent</display-name>
+	</channel>
+	<channel id="I118.49999641.microsoft.com">
+		<display-name>118 KCSMDT3</display-name>
+		<display-name>118</display-name>
+		<display-name>KCSMDT3</display-name>
+		<display-name>KCSMDT3 (KCSM-DT3)</display-name>
+		<display-name>Independent</display-name>
+	</channel>
+	<channel id="I119.28458070.microsoft.com">
+		<display-name>119 KTVUDT</display-name>
+		<display-name>119</display-name>
+		<display-name>KTVUDT</display-name>
+		<display-name>KTVUDT (KTVU-DT)</display-name>
+		<display-name>Fox Affiliate</display-name>
+	</channel>
+	<channel id="I120.186315923.microsoft.com">
+		<display-name>120 KTVUDT2</display-name>
+		<display-name>120</display-name>
+		<display-name>KTVUDT2</display-name>
+		<display-name>KTVUDT2 (KTVU-DT2)</display-name>
+		<display-name>Independent</display-name>
+	</channel>
+	<channel id="I121.42098125.microsoft.com">
+		<display-name>121 KBCWDT</display-name>
+		<display-name>121</display-name>
+		<display-name>KBCWDT</display-name>
+		<display-name>KBCWDT (KBCW-DT)</display-name>
+		<display-name>CW Affiliate</display-name>
+	</channel>
+	<channel id="I122.38750763.microsoft.com">
+		<display-name>122 KQCADT</display-name>
+		<display-name>122</display-name>
+		<display-name>KQCADT</display-name>
+		<display-name>KQCADT (KQCA-DT)</display-name>
+		<display-name>MyNetworkTV Affiliate</display-name>
+	</channel>
+	<channel id="I123.209139551.microsoft.com">
+		<display-name>123 KQCADT2</display-name>
+		<display-name>123</display-name>
+		<display-name>KQCADT2</display-name>
+		<display-name>KQCADT2 (KQCA-DT2)</display-name>
+		<display-name>Independent</display-name>
+	</channel>
+	<channel id="I124.188190477.microsoft.com">
+		<display-name>124 KTLNDT</display-name>
+		<display-name>124</display-name>
+		<display-name>KTLNDT</display-name>
+		<display-name>KTLNDT (KTLN-DT)</display-name>
+		<display-name>Independent</display-name>
+	</channel>
+	<channel id="I125.278950922.microsoft.com">
+		<display-name>125 KTVULD</display-name>
+		<display-name>125</display-name>
+		<display-name>KTVULD</display-name>
+		<display-name>KTVULD (KTVU-LD)</display-name>
+		<display-name>Fox Low Power</display-name>
+	</channel>
+	<channel id="I126.167842165.microsoft.com">
+		<display-name>126 KSPXDT</display-name>
+		<display-name>126</display-name>
+		<display-name>KSPXDT</display-name>
+		<display-name>KSPXDT (KSPX-DT)</display-name>
+		<display-name>ION Affiliate</display-name>
+	</channel>
+	<channel id="I127.173256249.microsoft.com">
+		<display-name>127 KSPXDT2</display-name>
+		<display-name>127</display-name>
+		<display-name>KSPXDT2</display-name>
+		<display-name>KSPXDT2 (KSPX-DT2)</display-name>
+		<display-name>Independent</display-name>
+	</channel>
+	<channel id="I128.278950923.microsoft.com">
+		<display-name>128 KTVULD2</display-name>
+		<display-name>128</display-name>
+		<display-name>KTVULD2</display-name>
+		<display-name>KTVULD2 (KTVU-LD2)</display-name>
+		<display-name>Low Power</display-name>
+	</channel>
+	<channel id="I129.173256248.microsoft.com">
+		<display-name>129 KSPXDT3</display-name>
+		<display-name>129</display-name>
+		<display-name>KSPXDT3</display-name>
+		<display-name>KSPXDT3 (KSPX-DT3)</display-name>
+		<display-name>Independent</display-name>
+	</channel>
+	<channel id="I130.173256247.microsoft.com">
+		<display-name>130 KSPXDT4</display-name>
+		<display-name>130</display-name>
+		<display-name>KSPXDT4</display-name>
+		<display-name>KSPXDT4 (KSPX-DT4)</display-name>
+		<display-name>Independent</display-name>
+	</channel>
+	<channel id="I131.293242308.microsoft.com">
+		<display-name>131 KSPXDT5</display-name>
+		<display-name>131</display-name>
+		<display-name>KSPXDT5</display-name>
+		<display-name>KSPXDT5 (KSPX-DT5)</display-name>
+		<display-name>Independent</display-name>
+	</channel>
+	<channel id="I132.188190459.microsoft.com">
+		<display-name>132 KSTSDT</display-name>
+		<display-name>132</display-name>
+		<display-name>KSTSDT</display-name>
+		<display-name>KSTSDT (KSTS-DT)</display-name>
+		<display-name>TELEMUNDO (HBC) Affiliate</display-name>
+	</channel>
+	<channel id="I133.219152533.microsoft.com">
+		<display-name>133 KSTSDT2</display-name>
+		<display-name>133</display-name>
+		<display-name>KSTSDT2</display-name>
+		<display-name>KSTSDT2 (KSTS-DT2)</display-name>
+		<display-name>Independent</display-name>
+	</channel>
+	<channel id="I134.278950961.microsoft.com">
+		<display-name>134 KSTSDT3</display-name>
+		<display-name>134</display-name>
+		<display-name>KSTSDT3</display-name>
+		<display-name>KSTSDT3 (KSTS-DT3)</display-name>
+		<display-name>Independent</display-name>
+	</channel>
+	<channel id="I135.188190483.microsoft.com">
+		<display-name>135 KQEHDT</display-name>
+		<display-name>135</display-name>
+		<display-name>KQEHDT</display-name>
+		<display-name>KQEHDT (KQEH-DT)</display-name>
+		<display-name>PBS Affiliate</display-name>
+	</channel>
+	<channel id="I136.188190503.microsoft.com">
+		<display-name>136 KQEHDT2</display-name>
+		<display-name>136</display-name>
+		<display-name>KQEHDT2</display-name>
+		<display-name>KQEHDT2 (KQEH-DT2)</display-name>
+		<display-name>Independent</display-name>
+	</channel>
+	<channel id="I137.188190508.microsoft.com">
+		<display-name>137 KQEHDT3</display-name>
+		<display-name>137</display-name>
+		<display-name>KQEHDT3</display-name>
+		<display-name>KQEHDT3 (KQEH-DT3)</display-name>
+		<display-name>PBS Affiliate</display-name>
+	</channel>
+	<channel id="I138.190408571.microsoft.com">
+		<display-name>138 KQEHDT4</display-name>
+		<display-name>138</display-name>
+		<display-name>KQEHDT4</display-name>
+		<display-name>KQEHDT4 (KQEH-DT4)</display-name>
+		<display-name>Independent</display-name>
+	</channel>
+	<channel id="I139.193702929.microsoft.com">
+		<display-name>139 KQEHDT5</display-name>
+		<display-name>139</display-name>
+		<display-name>KQEHDT5</display-name>
+		<display-name>KQEHDT5 (KQEH-DT5)</display-name>
+		<display-name>Independent</display-name>
+	</channel>
+	<channel id="I140.188190480.microsoft.com">
+		<display-name>140 KDTVDT</display-name>
+		<display-name>140</display-name>
+		<display-name>KDTVDT</display-name>
+		<display-name>KDTVDT (KDTV-DT)</display-name>
+		<display-name>Univision (SI) Affiliate</display-name>
+	</channel>
+	<channel id="I141.234166659.microsoft.com">
+		<display-name>141 KDTVDT2</display-name>
+		<display-name>141</display-name>
+		<display-name>KDTVDT2</display-name>
+		<display-name>KDTVDT2 (KDTV-DT2)</display-name>
+		<display-name>UniMas Affiliate</display-name>
+	</channel>
+
+
