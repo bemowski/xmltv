@@ -1,0 +1,15 @@
+{
+  "zip": "53704",
+  "hdhomerunUrl": "http://hdhomerun",
+  "skip": [
+    "8.3", "8.4", "8.5", "8.7", // kids, qvc
+    "15.4",
+    "23\\..*", // religion
+    "32\\..*", // weak signal
+    "38\\..*", // weak signal
+    "39\\..*", // weak signal
+    "50\\..*", // weak signal
+
+    "57.5" // QVC
+  ]
+}

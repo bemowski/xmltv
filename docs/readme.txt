@@ -9,6 +9,10 @@ REMOTE REBOOT:
 hdhomerun_config discover 
 hdhomerun_config 1047BA79 set /sys/restart self
 
+or: 
+hdhomerun_config $(hdhomerun_config discover|cut -d \  -f 3) set /sys/restart self
+
+
 Found here:
 http://dougshartzer.blogspot.com/2013/05/resetting-your-hdhomerun-tv-tuner.html
 

@@ -120,14 +120,12 @@ public class GuideMain {
 //         }
 //         
 //         TV tv=convert(guide);
-         
-         GuideLoader loader=new GuideLoader();
+
+        // NOTE: THIS CLASS LEFT FOR REFERENCE, IT DOES NOT WORK
+         GuideLoader loader=new GuideLoader(null);
          loader.setGuideUrl(ap.getStringArg("-i"));
          loader.setLineupUrl(ap.getStringArg("-l"));
-         loader.setSkipFile(ap.getStringArg("--skip"));
-         
-         loader.setHdhomerunRootUrl("http://hdhomerun");
-         
+
          TV tv=loader.getTV();
          write(tv, ap.getStringArg("-o", "xmltv.xml"));
          

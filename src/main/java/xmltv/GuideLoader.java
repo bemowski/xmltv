@@ -1,34 +1,14 @@
 package xmltv;
 
-import java.io.ByteArrayInputStream;
-import java.io.ByteArrayOutputStream;
-import java.io.File;
-import java.io.FileReader;
-import java.io.IOException;
-import java.io.InputStream;
-import java.net.HttpURLConnection;
-import java.net.URL;
-import java.net.URLConnection;
-import java.net.URLEncoder;
-import java.util.Date;
-import java.util.List;
-
-import javax.xml.bind.JAXBContext;
-import javax.xml.bind.JAXBException;
-import javax.xml.bind.Marshaller;
-
-import org.slf4j.Logger;
-
-import com.fasterxml.jackson.core.JsonFactory;
-import com.fasterxml.jackson.core.JsonParser;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.MapperFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
-
 import net.jmatrix.utils.ClassLogFactory;
 import net.jmatrix.utils.DebugUtils;
 import net.jmatrix.utils.StreamUtil;
+import org.slf4j.Logger;
+import xmltv.model.Config;
 import xmltv.model.hdhomerun.Channel;
 import xmltv.model.hdhomerun.Device;
 import xmltv.model.hdhomerun.Guide;
@@ -37,11 +17,23 @@ import xmltv.model.xmltv.Programme;
 import xmltv.model.xmltv.TV;
 import xmltv.util.TrackingInputStream;
 
+import javax.xml.bind.JAXBContext;
+import javax.xml.bind.JAXBException;
+import javax.xml.bind.Marshaller;
+import java.io.ByteArrayInputStream;
+import java.io.ByteArrayOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.net.HttpURLConnection;
+import java.net.URL;
+import java.net.URLConnection;
+import java.util.List;
+
 /**
  * 
  * lineupUrl=hdhomerunRootUrl+"/lineup.json"
  * deviceUrl=hdhomerunRootUrl+"/discover.json"
- * guideUrl=HD_GUID_URL+devcie.getAuthCode()
+ * guideUrl=HD_GUID_URL+device.getAuthCode()
  * 
  * @author bemo
  *
@@ -49,25 +41,23 @@ import xmltv.util.TrackingInputStream;
 public class GuideLoader {
    static final Logger log=ClassLogFactory.getLog();
 
-   String skipFile;          // sorta required.
-   String hdhomerunRootUrl;  // REQUIRED
-   
+   Config config;
+
    static String HD_GUIDE_URL="http://my.hdhomerun.com/api/guide.php?DeviceAuth=";
    
    // These may be set for testing, or derived for real stuff
    String lineupUrl;
    String deviceUrl;
    String guideUrl;
-   
-   
+
+
    long cacheTime=3600*1000; // cache guide 1 hour
    
    Guide guide=null;
    
-   
-   
-   
-   public GuideLoader() {}
+   public GuideLoader(Config config) {
+     this.config=config;
+   }
    
    public Guide getGuide() throws IOException {
       if (guide != null && guide.getAge() < cacheTime) {
@@ -85,15 +75,11 @@ public class GuideLoader {
    
    private Guide loadGuide() throws IOException {
       Guide guide=new Guide();
-      
-      if (skipFile != null) {
-         List<String> skip=readSkip(skipFile);
-         log.info("Skipping: "+skip);
-         guide.setSkip(skip);
-      }
-      
-      
-      List<Channel> lineup=readGuideChannels(hdhomerunRootUrl+"/lineup.json");
+
+     log.info("Skipping: "+config.getSkip());
+     guide.setSkip(config.getSkip());
+
+      List<Channel> lineup=readGuideChannels(config.getHdhomerunUrl()+"/lineup.json");
       guide.addChannels(lineup);
 
       Device device=Device.load(getDeviceUrl());
@@ -207,22 +193,7 @@ public class GuideLoader {
       return lineup;
    }
    
-   
-   static List<String> readSkip(String sfile) throws IOException {
-      JsonFactory factory=new JsonFactory();
-      factory.enable(JsonParser.Feature.ALLOW_COMMENTS);
-      
-      ObjectMapper om=new ObjectMapper(factory);
-      om.configure(MapperFeature.ACCEPT_CASE_INSENSITIVE_PROPERTIES, true);
-      om.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
 
-      File f=new File(sfile);
-      
-      List<String> skip=om.readValue(new FileReader(f), new TypeReference<List<String>>() {});
-      
-      return skip;
-   }
-   
    static List<Channel> readGuideChannels(String surl) throws IOException {
       ObjectMapper om=new ObjectMapper();
       om.configure(MapperFeature.ACCEPT_CASE_INSENSITIVE_PROPERTIES, true);
@@ -264,25 +235,10 @@ public class GuideLoader {
    }
    
    ///////////////////////////////////////////////////////////////////////////////////////////
-   public String getSkipFile() {
-      return skipFile;
-   }
-
-   public void setSkipFile(String skipFile) {
-      this.skipFile = skipFile;
-   }
-
-   public String getHdhomerunRootUrl() {
-      return hdhomerunRootUrl;
-   }
-
-   public void setHdhomerunRootUrl(String hdhomerunRootUrl) {
-      this.hdhomerunRootUrl = hdhomerunRootUrl;
-   }
 
    public String getLineupUrl() {
       if (lineupUrl == null)
-         return hdhomerunRootUrl+"/lineup.json";
+         return config.getHdhomerunUrl()+"/lineup.json";
       return lineupUrl;
    }
 
@@ -292,7 +248,7 @@ public class GuideLoader {
 
    public String getDeviceUrl() {
       if (deviceUrl == null)
-         return hdhomerunRootUrl+"/discover.json";
+         return config.getHdhomerunUrl()+"/discover.json";
       return deviceUrl;
    }
 

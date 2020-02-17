@@ -29,6 +29,10 @@ dependencies {
     compile("com.fasterxml.jackson.core:jackson-annotations:2.8.5")
     compile("com.fasterxml.jackson.core:jackson-databind:2.8.5")
     
+    compile('javax.xml.bind:jaxb-api:2.3.1')
+    compile("com.sun.xml.bind:jaxb-core:2.3.0")
+    compile("com.sun.xml.bind:jaxb-impl:2.3.1")
+
     //compile("com.google.guava:guava:21.0")
 }
 
@@ -60,7 +64,7 @@ task copyConfigToBuild (type: Copy) {
 task tar(type: Tar) {
     into ('guide') { 
         from "build"
-        include ("cli/**", "classes/**", "resources/**", "lib/**", "config/**")
+        include ("cli/**", "classes/**", "resources/**", "lib/**", "libs/**", "config/**")
     }
     baseName = 'guide'
     destinationDir = file('build')
@@ -69,3 +73,12 @@ task tar(type: Tar) {
 }
 
 
+jar {
+    manifest {
+        attributes 'Main-Class': 'xmltv.GuideServer'
+    }
+    from {
+        configurations.compile.collect { it.isDirectory() ? it : zipTree(it) }
+        configurations.runtime.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+}
